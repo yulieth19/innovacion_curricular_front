@@ -1,0 +1,10 @@
+# Configuracion local; conservar versionada la plantilla.
+.env
+.env.*
+!.env.example
+
+# Salidas locales de .NET.
+bin/
+obj/
+*.user
+*.suo
